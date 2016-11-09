@@ -67,4 +67,10 @@ describe("process function", function () {
     assert.equal(actual, expected);
   });
 
+  it("should preserve camelized attribute names", function () {
+    var source = 'template: <div *ngIf="val"></div>';
+    var actual = process(source, {collapseWhitespace: true}).source;
+    assert.equal(actual, source);
+  });
+
 });

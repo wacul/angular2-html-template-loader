@@ -1,6 +1,6 @@
 {
   "name": "angular2-html-template-loader",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A webpack loader for angular2 html template strings ",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "keywords": ["angular", "webpack", "html", "loader"],
   "author": "Quramy <yosuke.kurami@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wacul/angular2-html-template-loader.git"
+  },
   "license": "MIT",
   "dependencies": {
     "html-minifier": "^3.1.1",

@@ -15,7 +15,7 @@ build:
 deploy:
   steps:
     - script:
-      name: confirm login
+      name: npm publish
       code: |
         echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > .npmrc
-        npm whoami
+        npm publish

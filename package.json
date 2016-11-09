@@ -1,0 +1,17 @@
+{
+  "name": "angular2-html-template-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for angular2 html template strings ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": ["angular", "webpack", "html", "loader"],
+  "author": "Quramy <yosuke.kurami@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "html-minifier": "^3.1.1",
+    "loader-utils": "^0.2.16",
+    "mocha": "^3.1.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "angular2-html-template-loader",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A webpack loader for angular2 html template strings ",
   "main": "index.js",
   "scripts": {

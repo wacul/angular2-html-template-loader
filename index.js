@@ -1,11 +1,11 @@
-var loaderUtils = require("loaderUtils");
+var loaderUtils = require("loader-utils");
 var process = require("./lib/process");
 
 module.exports = function (source, sourcemap) {
 
   this.cacheable && this.cacheable();
 
-  var globalOptions = this.options.ng2htmlTemplate;
+  var globalOptions = this.options ? this.options.ng2htmlTemplate : {};
   var loaderOptions = loaderUtils.parseQuery(this.query);
   var opt = Object.assign({}, globalOptions, loaderOptions);
 

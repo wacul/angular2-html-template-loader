@@ -14,7 +14,9 @@ INPUT:
     </div>
   `
 })
-export class MyComponent
+export class MyComponent {
+  //
+}
 ```
 
 OUTPUT: 
@@ -24,7 +26,9 @@ OUTPUT:
   selector: "my-component",
   template: `<div>Hello, wolrd</div>`
 })
-export class MyComponent
+export class MyComponent {
+  //
+}
 ```
 
 ## Options

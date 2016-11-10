@@ -1,4 +1,5 @@
 [![wercker status](https://app.wercker.com/status/884e0b28f553e5715d3b7d61282e271a/s/master "wercker status")](https://app.wercker.com/project/byKey/884e0b28f553e5715d3b7d61282e271a)
+[![npm version](https://badge.fury.io/js/angular2-html-template-loader.svg)](https://badge.fury.io/js/angular2-html-template-loader)
 # angular2-html-template-loader
 
 A webpack loader which minify html template strings in your angular2 component code.

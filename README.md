@@ -11,7 +11,7 @@ INPUT:
   selector: "my-component",
   template: `
     <div>
-      Hello, wolrd
+      Hello, world
     </div>
   `
 })
@@ -25,7 +25,7 @@ OUTPUT:
 ```ts
 @Component({
   selector: "my-component",
-  template: `<div>Hello, wolrd</div>`
+  template: `<div>Hello, world</div>`
 })
 export class MyComponent {
   //
